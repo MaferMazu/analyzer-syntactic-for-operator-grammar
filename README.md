@@ -96,7 +96,7 @@ such functions is impossible, showing evidence for it.
 
 5) `PARSE <string>`
 
-It performs the parsing process on the string supplied in <string>. Must show
+It performs the parsing process on the string supplied in `<string>`. Must show
 each of the steps, including:
 
 Stack - Current status of the stack
@@ -123,7 +123,7 @@ You must exit the simulator.
 ## 🔍 For run the tests
 
 ```shell
-coverage3 run --source=memory_manager -m unittest test.py
+coverage3 run --source=analyzer -m unittest test.py
 ```
 
 #### Coverage of the tests
@@ -134,4 +134,4 @@ coverage3 report -m
 
 | Module | Coverage |
 |:----:|:--:|
-| Analyzer | % |
+| Analyzer | 65% |
